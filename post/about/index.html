@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>关于 | Hardy&#39;s Blog</title>
+<meta name="description" content="Stay Hungry Stay Foolish.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://aqqop.github.io/favicon.ico?v=1701654005831">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://aqqop.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://aqqop.github.io">
+        <img class="avatar" src="https://aqqop.github.io/images/avatar.png?v=1701654005831" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://aqqop.github.io">
+        <h1 class="site-title">Hardy&#39;s Blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">关于</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2023-11-30</span>
+            
+          </div>
+          <div class="post-content">
+            <blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>这是用<a href="https://github.com/getgridea/gridea">Gridea</a>客户端发布的博客，也是我开始长期维护的博客。<br>
+我会不定期的更新有关于<code>我的生活</code>、<code>所见所闻</code>、涉及的<code>领域资讯</code>等等博客，我不是一个专业的写手，所以不见得博客会有深度，都是些个人浅薄的思考，希望大家多多包函。<br>
+同时也说一下自己为什么要开这个博客，最主要的原因是希望自己能通过写博客增长见闻、扩宽知识面，把自己学到东西分享出去，这既能帮助到别人，也能让自己的知识更牢固，这是通过<a href="https://book.douban.com/subject/35806965/">输出式阅读法</a>这本书学到的技巧。大家有兴趣可以去看一下，不一定每个人都能有效果，但至少多了解一种方式去学习知识，也是一种收获。</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>我是一名🎨设计师，也是一名💻前端工程师，目前是在职的，但是有好的推荐😄，我也会考虑的。</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<ul>
+<li>曾经是英雄联盟端游的玩家，但是年纪大了，就少了在电脑前玩耍的时间了，目前都在手游上玩；</li>
+<li>动漫爱好者；</li>
+<li>摄影关注者</li>
+<li>...</li>
+<li></li>
+</ul>
+<h2 id="联系我呀">📬 联系我呀</h2>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">Stay Hungry Stay Foolish.</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://aqqop.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
